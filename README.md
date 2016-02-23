@@ -3,7 +3,7 @@
 A simple Node.js request wrapper for retrying http requests.
 
 #### Usage
-```
+```javascript
 var RequestRetry = require('node-request-retry');
 
 var requestRetry = new RequestRetry();
@@ -30,7 +30,7 @@ requestRetry.post(url, postData, function(err, response, body) {
 ```
 
 #### Modify Defaults
-```
+```javascript
 var RequestRetry = require('node-request-retry');
 
 // A wrapper for request.defaults(obj);
